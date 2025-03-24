@@ -690,4 +690,19 @@ input{
         margin-top: 400px;
         font-size: larger;
     }
+    .top-products{
+        margin-left: 140px;
+        gap: 60px;
+    }
+    .second {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .featured-container{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .foot{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
