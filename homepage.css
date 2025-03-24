@@ -398,3 +398,92 @@ button{
     width: 400px;
     height: 40px;
 }
+
+/* form */
+#wrong{
+    margin-left: 380px;
+    color: white;
+}
+.page{
+    margin-left: 500px;
+    margin-top: -550px;
+    color: white;
+    border: 2px solid none;
+    width: 400px;
+    background-color: black;
+    z-index: 1000;
+    position: absolute;
+    display: block;
+}
+.registration{
+    margin-left: 40px;
+}
+.sign{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+
+.feild{
+    margin-top: 20px;
+    color: white;
+    border: 0.5px solid white;
+    background-color: black;
+    
+}
+.feild2{
+    width: 300px;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    background-color: red;
+    border: 1px solid red;
+    margin-bottom: 20px;
+
+}
+input{
+    height: 30px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.line{
+    margin-left: 25px;
+}
+.media{
+    width: 90px;
+    height: 30px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    color: white;
+}
+.f{
+    background-color: darkblue;
+    border: 1px solid darkblue;
+}
+.g{
+    background-color: red;
+    border: 1px solid red;
+}
+.t{
+    background-color: rgb(16, 137, 236);
+    border: 1px solid rgb(16, 137, 236);
+}
+.line-container{
+    display: flex;
+}
+.hrline{
+    border-bottom: 1px solid white;
+    width: 90px;
+    position: relative;
+    top: -20px;
+}
+.left{
+    border-bottom: 1px solid white; 
+    width: 90px; 
+    margin-left: 20px ; 
+    position: relative; 
+    top: -20px;
+}
