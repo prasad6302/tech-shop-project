@@ -244,3 +244,46 @@ button{
 .feature{
     margin-top: 20px;
 }
+
+/* Footer */
+.foot{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: white;
+    margin-top: 50px;
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 5px;
+
+}
+.footlink{
+    text-decoration: none;
+    color: white;
+}
+.mailarea{
+    background-color: black;
+    color: white;
+    border: 0.5px solid white;
+    width: 300px;
+}
+.area{
+    width: 370px;
+    color: grey;
+}
+.Subscribe{
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/* footer2 */
+.fa-brands{
+    padding: 10px;
+}
+.created{
+    font-size: large;
+    color: white;
+}
+.foot2{
+    color: white;
+    margin-left: -200px;
+}
