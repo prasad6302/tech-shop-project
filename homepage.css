@@ -405,8 +405,8 @@ button{
     color: white;
 }
 .page{
-    margin-left: 500px;
-    margin-top: -550px;
+    margin-left: 550px;
+    margin-top: -600px;
     color: white;
     border: 2px solid none;
     width: 400px;
@@ -476,16 +476,16 @@ input{
 }
 .hrline{
     border-bottom: 1px solid white;
-    width: 90px;
+    width: 85px;
     position: relative;
-    top: -20px;
+    top: -25px;
 }
 .left{
     border-bottom: 1px solid white; 
-    width: 90px; 
+    width: 85px; 
     margin-left: 20px ; 
     position: relative; 
-    top: -20px;
+    top: -25px;
 }
 
 
@@ -645,6 +645,43 @@ input{
 
     }
 
+    /* form */
+    .page{
+        margin-left: 50px;
+        margin-top: -200px;
+        width: 300px;
+        height: 450px;
+    }
+    #wrong{
+        margin-left: 280px;
+    }
+    .sign{
+        margin-top: -0px;
+    }
+    .feild{
+        width: 220px;
+        margin-top: 5px;
+    }
+    .feild2{
+        width: 220px;
+        margin-top: 10px;
+    }
+    .line{
+        margin-left: 13px;
+        margin-right: -5px;
+    }
+    .hrline{
+        width: 50px;
+    }
+    .left{
+        width: 50px;
+    }
+    .media{
+        width: auto;
+        padding: 1px;
+        margin-left: 1px;
+    }
+
 }
 
 /* For tablet devices */
@@ -704,6 +741,44 @@ input{
     }
     .foot{
         grid-template-columns: repeat(2,1fr);
+    }
+
+    /* form */
+    .page{
+        margin-left: 200px;
+        margin-top: -350px;
+        width: auto;
+        height: 500px;
+    }
+    #wrong{
+        margin-left: 340px;
+    }
+    .sign{
+        margin-top: 15px;
+    }
+    .feild{
+        width: 280px;
+        margin-top: 10px;
+    }
+    .feild2{
+        width: 280px;
+        margin-top: 20px;
+    }
+    .line{
+        margin-left: 13px;
+        margin-right: -5px;
+    }
+    .hrline{
+
+        width: 80px;
+    }
+    .left{
+        width: 80px;
+    }
+    .media{
+        width: 80px;
+        padding: 1px;
+        margin-left: 1px;
     }
 }
 
@@ -788,4 +863,15 @@ input{
     .mailarea{
         width: 200px;
     }
+
+        /* form */
+        .page{
+            margin-left: 300px;
+            margin-top: -550px;
+            width: 400px;
+            height: 600px;
+        }
+        #wrong{
+            margin-left: 380px;
+        }
 }
