@@ -845,8 +845,6 @@ input {
         width: 210px;
     }
     .about{
-        /* display: flex;
-        flex-direction: column; */
         margin-left: 10px;
         width: 400px;
     }
@@ -855,10 +853,45 @@ input {
     }
 
     /* cart-page */
+    .cart-item{
+        width: 425px;
+    }
+    .bin{
+        margin-top: -240px;
+        margin-left: 390px;
+    }
+    .product-image{
+        margin-left: 10px;
+        height: 100px;
+        width: 120px;
+    }
+    .cart-details{
+        margin-left: 140px;
+        margin-top: -140px;
+    }
+    .horizantal{
+        margin-left: -120px;
+        width: 400px;
+    }
+    .cart-details  h3 {
+        font-size: smaller;
+    }
+    .price{
+        font-size: smaller;
+    }
+    .quantity{
+        width: 20px;
+        height: 25px;
+        align-items: center;
+    }
+    .order{
+        margin-top: 50px;
+        margin-left: -30px;
+    }
+    .summary{
+        width: 420px;
+    }
     
-    
-
-
 }
 
 /* For tablet devices */
@@ -885,53 +918,38 @@ input {
         margin-top: 70px;
         font-size: medium;
     }
-
-    /* .carousel-item h1{
-        font-size: 12px !important;
-    } */
     h1 {
         font-size: xx-large;
     }
-
     .featured {
         margin-top: 60px;
         font-size: larger;
     }
-
     .products {
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
-
     .details {
         font-size: medium;
-
     }
-
     h5 {
         font-size: small
     }
-
     .featured2 {
         margin-top: 400px;
         font-size: larger;
     }
-
     .top-products {
         margin-left: 140px;
         gap: 60px;
     }
-
     .second {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
-
     .featured-container {
         grid-template-columns: repeat(2, 1fr);
-
     }
-
     .foot {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -943,45 +961,36 @@ input {
         width: auto;
         height: 500px;
     }
-
     #wrong {
         margin-left: 340px;
     }
-
     .sign {
         margin-top: 15px;
     }
-
     .feild {
         width: 280px;
         margin-top: 10px;
     }
-
     .feild2 {
         width: 280px;
         margin-top: 20px;
     }
-
     .line {
         margin-left: 13px;
         margin-right: -5px;
     }
-
     .hrline {
 
         width: 80px;
     }
-
     .left {
         width: 80px;
     }
-
     .media {
         width: 80px;
         padding: 1px;
         margin-left: 1px;
     }
-
     /* product page */
     .picture {
         margin-top: 30px;
@@ -989,43 +998,57 @@ input {
         height: 70px;
         width: 70px;
     }
-
     .pic {
         margin-top: -400px;
         margin-left: 60px;
         height: 350px;
         width: 350px;
     }
-
     .info {
         margin-top: -400px;
         margin-left: 400px;
         font-weight: 100;
     }
-
     .offer {
         width: 270px;
-
     }
-
     .offer2 {
         width: 270px;
         margin-top: 10px;
         margin-left: 0px;
     }
-
     .stock {
         margin-left: 250px;
     }
-
     .hl {
         width: 350px;
     }
-
     #cart {
         width: 250px;
     }
 
+    /* cart-page */
+    .cart-item{
+        width: 770px;
+    }
+    .bin{
+        margin-top: -0px;
+        margin-left: 530px;
+    }
+    .product-image{
+        margin-left: 10px;
+        height: 150px;
+        width: 170px;
+    }
+    .cart-details{
+        margin-left: 200px;
+        margin-top: -140px;
+    }
+
+    .order{
+        margin-top: 50px;
+        margin-left: 100px;
+    }
 }
 
 /* For small laptop screen divices */
@@ -1034,96 +1057,77 @@ input {
         height: 90px;
         width: 106%;
     }
-
     header {
         height: 100%;
     }
-
     .carousel-inner {
         height: 600px;
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
     }
-
     .carousel img {
         height: 500px;
         width: 400px;
         margin-left: 600px;
     }
-
     .discription {
         margin-top: 90px;
         font-size: larger;
     }
-
     .h1 {
         font-size: larger;
     }
-
     .featured {
         margin-left: 70px;
         margin-top: 60px;
         font-size: larger;
     }
-
     .products {
         grid-template-columns: repeat(5, 1fr);
         gap: 5px;
 
     }
-
     .details {
         margin: 5px;
         font-size: medium;
         height: 300px;
         width: 200px;
-
     }
-
     h5 {
         font-size: small
     }
-
     .featured2 {
         margin-top: 200px;
         font-size: larger;
     }
-
     .top-products {
         margin-left: 180px;
         gap: 120px;
     }
-
     .second {
         grid-template-columns: repeat(3, 1fr);
         gap: 5px;
         width: 200px;
     }
-
     .second2 {
         width: 340px;
     }
-
     .addtocart {
         width: 300px;
     }
-
     .featured-container {
         grid-template-columns: repeat(4, 1fr);
 
     }
-
     .foot {
         grid-template-columns: repeat(4, 1fr);
         width: 1085px;
     }
-
     .area {
         width: 290px;
         margin-left: 0px;
     }
-
     .mailarea {
         width: 200px;
     }
@@ -1135,40 +1139,55 @@ input {
         width: 400px;
         height: 600px;
     }
-
     #wrong {
         margin-left: 380px;
     }
-
 
     /* product page */
     .picture {
         margin-left: 15px;
     }
-
     .pic {
         height: 500px;
         width: 500px;
     }
-
     .info {
         margin-left: 600px;
     }
-
     .offer {
         width: 200px;
     }
-
     .offer2 {
         width: 200px;
         margin-left: 270px;
     }
-
     .stock {
         margin-left: 370px;
     }
-
     .hl {
         width: 470px;
+    }
+
+    /* cart-page */
+    .cart-item{
+        width: 1425px;
+    }
+    .bin{
+        margin-top: -0px;
+        margin-left: 530px;
+    }
+    .product-image{
+        margin-left: 10px;
+        height: 150px;
+        width: 170px;
+    }
+    .cart-details{
+        margin-left: 200px;
+        margin-top: -140px;
+    }
+
+    .order{
+        margin-top: 50px;
+        margin-left: 200px;
     }
 }
