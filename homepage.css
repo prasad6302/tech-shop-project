@@ -570,6 +570,7 @@ input{
     
 }
 
+/* Responsive web design */
 
 /* For small screen divices */
 @media screen and (max-width:426px) {
@@ -580,9 +581,6 @@ input{
     
     .carousel{
         width: 100%;
-    }
-    .carousel-item{
-        /* margin-left: -70px; */
     }
     .carousel-inner{
         height: 250px;
@@ -620,5 +618,30 @@ input{
     .featured2{
         margin-top: 1300px;
         font-size: larger;
+    }
+    .top-products{
+        margin-left: 10px;
+        gap: 20px;
+    }
+    .second {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .featured-container{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .foot{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .foot2{
+        height: 100px;
+        font-size: x-small;
+        margin-left: -150px;
+    }
+    .created{
+        margin-top: -55px;
+        font-size: x-small;
+
     }
 }
