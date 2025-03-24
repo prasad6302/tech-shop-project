@@ -758,4 +758,34 @@ input{
         margin-top: 200px;
         font-size: larger;
     }
+    .top-products{
+        margin-left: 180px;
+        gap: 120px;
+    }
+    .second {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        width: 200px;
+    }
+    .second2{
+        width: 340px;
+    }
+    .addtocart{
+        width: 300px;
+    }
+    .featured-container{
+        grid-template-columns: repeat(4,1fr);
+
+    }
+    .foot{
+        grid-template-columns: repeat(4,1fr);
+        width: 1085px;
+    }
+    .area{
+        width: 290px;
+        margin-left: 0px;
+    }
+    .mailarea{
+        width: 200px;
+    }
 }
