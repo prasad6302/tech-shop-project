@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-shop</title>
+    <!-- external css -->
+    <link rel="stylesheet" href="./homepage.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- font font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-dark">
+
+     <!-- header -->
+    <header>
+        <nav class="navbar">
+            <a href="./homepage.html" class="head"><h1 >Tech-shop</h1></a>
+            <div class="images-all">
+                <div class="search">
+                    <a href="#"><img src="./images/search icon logo.png" class="logos " alt=""></a>
+                    <div class="search-icon">
+                        <p >Search</p>
+                    </div>
+                </div>
+                <div class="cart">
+                    <a href="./cart.html"><img src="./images/cart icon logo.png" class="logos " alt=""></a>
+                    <span class="notification">4</span>
+                    <div class="cart-icon">
+                        <p>Cart</p>
+                    </div>
+                </div>
+                <div class="profile">
+                    <a href="#"><img src="./images/profile logo.png" class="logos " alt=""></a>
+                    <div class="popup">
+                        <p>Hello!</p>
+                        <p style="font-size: small;">Access Account and manage orders</p>
+                         <a href="./signup.html"><button class="massage">Login / Signup</button></a>
+                        <hr>
+                        <p>Please Login</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- cartpage -->
+    <div class="overflow-y-scroll" style="width: 60rem; height: 60rem;">
+        <div class="cart-item">
+            <img src="./images/jbl660nc-1.png" class="product-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash bin" viewBox="0 0 16 16">
+                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"/>
+                <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"/>
+              </svg>
+            <div class="cart-details">
+                <h3>JBL Live 660NC Wireless Over-Ear NC <br> Headphones</h3>
+                <p class="price">₹9,999 <del class="old-price">₹14,999</del> </p>
+                <div class="quantity">
+                    <button class="decrease">-</button>
+                    <button class="count">1</button>
+                    <button class="increase">+</button>
+                </div>
+        <hr class="horizantal">
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="./images/boat518-1.png" class="product-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash bin" viewBox="0 0 16 16">
+                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"/>
+                <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"/>
+              </svg>
+            <div class="cart-details">
+                <h3>boAt Rockerz 518 On-Ear Wireless <br> Headphones</h3>
+                <p class="price">₹1,299 <del class="old-price">₹3,990</del> </p>
+                <div class="quantity">
+                    <button class="decrease">-</button>
+                    <button class="count">1</button>
+                    <button class="increase">+</button>
+                </div>
+                <hr class="horizantal">
+            </div>
+        </div>
+        <div class="cart-item">
+            <img src="./images/boat131-1.png" class="product-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash bin" viewBox="0 0 16 16">
+                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"/>
+                <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"/>
+              </svg>
+            <div class="cart-details">
+                <h3>boAt Airdopes 131 Wireless In-Ear<br> Earbuds</h3>
+                <p class="price">₹1,099 <del class="old-price">₹2,990</del> </p>
+                <div class="quantity">
+                    <button class="decrease">-</button>
+                    <button class="count">1</button>
+                    <button class="increase">+</button>
+                </div>
+                <hr class="horizantal">
+            </div>
+        </div>
+        <div class="cart-item">
+            <img src="./images/boat110-1.png" class="product-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash bin" viewBox="0 0 16 16">
+                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"/>
+                <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"/>
+              </svg>
+            <div class="cart-details">
+                <h3>boAt BAssHeads 110 <br> In-EAr Wired Earphones</h3>
+                <p class="price">₹1,299 <del class="old-price">₹3,990</del> </p>
+                <div class="quantity">
+                    <button class="decrease">-</button>
+                    <button class="count">1</button>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="order">
+        <div class="summary">
+        <h3 >Order Summary (4 items)</h3>
+        <p class="original">Original Price <span class="amount">₹22,978</span></p>
+        <p >Discount <span class="amount d">- ₹10,152</span></p>
+        <p >Delivery <span class="amount de">Free</span></p>
+        <hr id="line">
+        <h3 id="price">Total Price <span id="total">₹12,846</span></h3>
+        <button id="checkout">Chekout</button>
+    </div>
+    </div>
+
+
+<!-- Footer -->
+<div class="foot">
+    <section class="area">
+        <a href="#" class="footlink">
+            <h1>Tech-shop</h1>
+        </a>
+        <p>Subscribe to our Email alerts to receive early <br>discount offers,and new products info.</p>
+        <input class="mailarea" type="email" placeholder="Email Address*"><br>
+        <button class="Subscribe">Subscribe</button>
+    </section>
+    <section class="area">
+        <a href="#" class="footlink">
+            <h3>Help</h3>
+        </a>
+        <p>FAQs</p>
+        <p>Track Order</p>
+        <p>Cancel Order</p>
+        <p>Return Order</p>
+        <p>Warranty Info</p>
+    </section>
+    <section class="area">
+        <a href="#" class="footlink">
+            <h3>Policies</h3>
+        </a>
+        <p>Return policy</p>
+        <p>Security</p>
+        <p>Sitemap</p>
+        <p>Privacy Policy</p>
+        <p>Term & Conditions</p>
+    </section>
+    <section class="area">
+        <a href="#" class="footlink">
+            <h3>company</h3>
+        </a>
+        <p>About Us</p>
+        <p>Contact Us</p>
+        <p>Service Centres</p>
+        <p>Careers</p>
+        <p>Affiliates</p>
+    </section>
+
+</div>
+  <!-- footer2 -->
+<div class="navbar">
+    <p class="created">2025 | All Rights Reserved. Built by | <b>POOJARI PRASAD</b></p>
+    <nav>
+        <p class="foot2"><i class="fa-brands fa-facebook-f fa-2x"></i><i class="fa-brands fa-twitter fa-2x" ></i><i class="fa-brands fa-instagram fa-2x"></i><i class="fa-brands fa-linkedin fa-2x"></i></p>
+        </a>
+    </nav>
+</div>
+
+
+
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
