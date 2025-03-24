@@ -1,0 +1,137 @@
+::selection{
+    background-color: red;
+}
+body {
+    background-color: rgb(40, 40, 40);
+}
+
+/* Heading */
+.head{
+    color: white;
+    text-decoration: none;
+}
+
+/* Logos */
+.logos{
+    padding: 15px;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+}
+.images-all{
+    display: flex;
+}
+.search{
+    position: relative;
+
+}
+/* search-icon */
+.search-icon{
+    position: absolute;
+    display: none;
+    color: white;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    z-index: 1000;
+    background-color: rgb(61, 61, 61);
+}
+.search:hover .search-icon{
+    display: block;
+ }
+ /* cart-icon */
+.cart-icon{
+    position: absolute;
+}
+.cart-icon{
+    position: absolute;
+    display: none;
+    color: white;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    z-index: 1000;
+    background-color: rgb(61, 61, 61);
+}
+.cart:hover .cart-icon{
+    display: block;
+ }
+/* popup box */
+.profile {
+    position: relative;
+    display: inline;
+}
+.popup {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-100%);
+    background-color: rgb(49, 49, 49);
+    color: white;
+    border: 0.5px solid white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 50;
+}
+ .profile:hover .popup{
+    display: block;
+ }
+
+/* notification */
+.notification{
+    position: absolute;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    top: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: -25px;
+}
+
+/* Carousel */
+.carousel-inner {
+    margin-top: 50px;
+}
+
+.flow{
+    height: 600px;
+    margin-left: 850px;
+}
+.discription{
+    position: absolute;
+    color: white;
+    margin-left: 150px;
+    margin-top: 120px;
+    font-size: large;
+}
+.carousel-indicators button{
+    height: 10px !important;
+    width: 10px !important;
+}
+button{
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+ 
+ /* login/signup button */
+ .massage{
+    background-color: rgb(49, 49, 49);
+    border: 0.5px solid white;
+ }
