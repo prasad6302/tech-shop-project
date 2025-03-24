@@ -487,3 +487,85 @@ input{
     position: relative; 
     top: -20px;
 }
+
+
+/* product details */
+
+.picture{
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    display: grid;
+}
+.pic{
+    width: 800px;
+    height: 600px;
+    margin-top: -550px;
+    margin-left: 100px;
+}
+.info{
+    color: rgb(208, 205, 205);
+    font-weight: 800;
+    margin-left: 920px;
+    margin-top: -600px;
+}
+.offer{
+    border: 1px solid white;
+    padding: 10px;
+    width: 280px;
+}
+.offer2{
+    border: 1px solid white;
+    position: relative;
+    padding: 10px;
+    width: 280px;
+    margin-left: 300px;
+    margin-top: -85px;
+}
+.hl{
+    width: 585px;
+}
+.stock{
+    background-color: rgb(2, 177, 2);
+    border: 2px solid rgb(2, 177, 2);
+    margin-left: 480px;
+    width: 100px;
+}
+.save{
+    color: rgb(3, 213, 3);
+    margin-top: -15px;
+}
+#save{
+    color: grey;
+}
+.off{
+    margin-left: 30px;
+    font-size: x-large;
+    color: grey;
+}
+#cart{
+    width: 290px;
+    height: 40px;
+    border-radius: 5px;
+}
+.specifications{
+    margin-top: 250px;
+    margin-left: 400px;
+    gap: 200px;
+}
+.about{
+    margin-left: 20px;
+    color: white;
+    width: 480px;
+
+}
+.similar{
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.item:hover{
+    transform: scale(1.2);
+    
+}
