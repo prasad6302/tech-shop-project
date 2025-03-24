@@ -644,4 +644,50 @@ input{
         font-size: x-small;
 
     }
+
+}
+
+/* For tablet devices */
+@media screen and (min-width:426px)and (max-width:768px) {
+    .navbar {
+        width: 100%;
+        height: 70px;
+    }
+    .carousel-inner{
+        height: 400px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .carousel img{
+        height: 300px;
+        width: 250px;
+        margin-left: 450px;
+    }
+    .discription{
+        margin-top: 70px;
+        font-size: medium;
+    }
+    .h1{
+        font-size: medium;
+    }
+    .featured{
+        margin-top: 60px;
+        font-size: larger;
+    }
+    .products{
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+    .details{
+        font-size: medium;
+        
+    }
+    h5{
+        font-size: small
+    }
+    .featured2{
+        margin-top: 400px;
+        font-size: larger;
+    }
 }
