@@ -1082,7 +1082,7 @@ html, body {
 @media screen and (min-width:769px) and (max-width:1024px) {
     .navbar {
         height: 90px;
-        width: 106%;
+        width: 100%;
     }
     header {
         height: 100%;
@@ -1186,10 +1186,10 @@ html, body {
     }
     .offer2 {
         width: 200px;
-        margin-left: 270px;
+        margin-left: 220px;
     }
     .stock {
-        margin-left: 370px;
+        margin-left: 270px;
     }
     .hl {
         width: 470px;
