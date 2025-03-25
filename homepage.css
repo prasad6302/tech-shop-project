@@ -194,13 +194,13 @@ button {
 
 .top-products {
     display: flex;
-    margin-bottom: 20px;
     margin-left: 300px;
     gap: 150px;
     margin-bottom: 100px;
 }
 
 .but {
+    text-align: center;
     color: white;
     text-decoration: none;
     margin-top: 50px;
@@ -410,7 +410,8 @@ button {
 }
 
 .order {
-    margin-left: 1050px;
+    width: 100vw;
+    margin-left: 940px;
     margin-top: -950px;
     margin-bottom: 900px;
     color: white;
@@ -425,27 +426,27 @@ button {
 }
 
 .amount {
-    margin-left: 240px;
+    margin-left: 210px;
     margin-top: -20px;
 }
 
 .d {
-    margin-left: 260px;
+    margin-left: 230px;
     color: rgb(20, 241, 20);
 }
 
 .de {
-    margin-left: 300px;
+    margin-left: 270px;
     color: rgb(20, 241, 20);
 
 }
 
 #total {
-    margin-left: 160px;
+    margin-left: 130px;
 }
 
 #line {
-    width: 400px;
+    width: 370px;
     color: white;
 }
 
@@ -455,7 +456,7 @@ button {
 }
 
 #checkout {
-    width: 400px;
+    width: 370px;
     height: 40px;
 }
 
@@ -466,7 +467,7 @@ button {
 }
 
 .page {
-    margin-left: 550px;
+    margin-left: 510px;
     margin-top: -600px;
     color: white;
     border: 2px solid none;
@@ -656,6 +657,36 @@ input {
 
 }
 
+/* changes */
+* {
+    box-sizing: border-box;
+}
+
+.navbar, .carousel {
+    width: 100%;
+}
+
+.cart-item {
+    width: 100%;
+    max-width: 100%;
+}
+.bin {
+    margin-left: auto;
+    margin-left: 590px;
+    margin-right: auto;
+}
+.top-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+
+
 /* Responsive web design */
 
 /* For small screen divices */
@@ -677,9 +708,9 @@ input {
     }
 
     .carousel img {
-        height: 150px;
-        width: 125px;
         margin-left: 250px;
+        width: 200px;
+        height: 150px;
     }
 
     .discription {
@@ -688,11 +719,6 @@ input {
         font-size: xx-small;
         font-style: italic;
     }
-
-    /* .carousel-item  h1 {
-        font-size: 14px !important;
-
-    } */
     h1{
         font-size: small;
     }
@@ -853,8 +879,8 @@ input {
     }
 
     /* cart-page */
-    .cart-item{
-        width: 425px;
+    .cart-item {
+        width: 100%; 
     }
     .bin{
         margin-top: -240px;
@@ -891,6 +917,7 @@ input {
     .summary{
         width: 420px;
     }
+
     
 }
 
@@ -1170,7 +1197,7 @@ input {
 
     /* cart-page */
     .cart-item{
-        width: 1425px;
+        /* width: 1425px; */
     }
     .bin{
         margin-top: -0px;
